@@ -1,0 +1,30 @@
+{
+  "name": "ryovax",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm:dev:frontend\" \"npm:dev:backend\"",
+    "dev:frontend": "next dev frontend -p 3000",
+    "dev:backend": "node backend/server.js",
+    "build": "next build frontend",
+    "start": "NODE_ENV=production concurrently \"npm:start:frontend\" \"npm:start:backend\"",
+    "start:frontend": "next start frontend -p 3000",
+    "start:backend": "node backend/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "framer-motion": "^11.11.17",
+    "multer": "^1.4.5-lts.1",
+    "next": "^14.2.15",
+    "nodemailer": "^6.9.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  }
+}
