@@ -1,0 +1,44 @@
+[
+  {
+    "country": "China",
+    "industries": ["Electronics", "Manufacturing", "Machinery"],
+    "products": ["Electronics components", "Steel pipes", "Consumer goods"],
+    "exportStrength": "High production capacity and global logistics network",
+    "tradeIndicator": "92"
+  },
+  {
+    "country": "India",
+    "industries": ["Chemicals", "Pharmaceuticals", "Textiles"],
+    "products": ["Packaging materials", "Textiles", "APIs"],
+    "exportStrength": "Cost-effective production and broad supplier ecosystem",
+    "tradeIndicator": "86"
+  },
+  {
+    "country": "Vietnam",
+    "industries": ["Electronics", "Export Processing", "Footwear"],
+    "products": ["Electronics components", "Industrial packaging", "Apparel"],
+    "exportStrength": "Fast-growing export zones and strategic Pacific trade access",
+    "tradeIndicator": "81"
+  },
+  {
+    "country": "Turkey",
+    "industries": ["Industrial Materials", "Machinery", "Construction"],
+    "products": ["Steel pipes", "Machinery parts", "Construction materials"],
+    "exportStrength": "Bridge market between Europe and Asia with strong industrial base",
+    "tradeIndicator": "78"
+  },
+  {
+    "country": "Germany",
+    "industries": ["Engineering", "Precision Equipment", "Automotive"],
+    "products": ["Automation systems", "Industrial electronics", "Precision tools"],
+    "exportStrength": "High-quality manufacturing standards and advanced engineering",
+    "tradeIndicator": "88"
+  },
+  {
+    "country": "Mexico",
+    "industries": ["Nearshore Manufacturing", "Automotive", "Electronics"],
+    "products": ["Electronics components", "Industrial plastics", "Metal assemblies"],
+    "exportStrength": "Nearshore access to North America with mature export corridors",
+    "tradeIndicator": "80"
+  }
+]
